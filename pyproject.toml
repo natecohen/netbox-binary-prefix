@@ -1,0 +1,30 @@
+[project]
+name = "netbox-binary-prefix"
+version = "1.0.0"
+description = "NetBox plugin to display disk and memory units with IEC binary prefixes"
+authors = [
+    {name = "Nate Cohen", email = "94263748+natecohen@users.noreply.github.com"},
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+]
+readme = "README.md"
+keywords = ["netbox-plugin", ]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/natecohen/netbox-binary-prefix/blob/main/README.md"
+Source = "https://github.com/natecohen/netbox-binary-prefix"
+Tracker = "https://github.com/natecohen/netbox-binary-prefix/issues"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "netbox_binary_prefix"
+module-root = ""
