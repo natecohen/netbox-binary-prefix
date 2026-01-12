@@ -12,7 +12,7 @@ class BinaryUnitsConfig(PluginConfig):
     author = "Nate Cohen"
     author_email = "94263748+natecohen@users.noreply.github.com"
     min_version = "4.2.6"
-    max_version = "4.4.99"
+    max_version = "4.5.99"
 
     def ready(self):
         super().ready()

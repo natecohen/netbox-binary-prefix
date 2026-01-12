@@ -1,6 +1,6 @@
 [project]
 name = "netbox-binary-prefix"
-version = "1.0.0"
+version = "1.0.1"
 description = "NetBox plugin to display disk and memory units with IEC binary prefixes"
 authors = [
     {name = "Nate Cohen", email = "94263748+natecohen@users.noreply.github.com"},
