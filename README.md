@@ -9,6 +9,7 @@ A simple NetBox plugin that patches the display of disk and memory sizes to use 
 | 4.2            | 1.0.0          |
 | 4.3            | 1.0.0          |
 | 4.4            | 1.0.0          |
+| 4.5            | 1.0.1          |
 
 
 ## Installation
